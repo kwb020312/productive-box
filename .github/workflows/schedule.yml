@@ -12,6 +12,6 @@ jobs:
       - name: Update gist
         uses: kwb020312/productive-box@master
         env:
-          GH_TOKEN: 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
-          GIST_ID: https://gist.github.com/kwb020312/e395eba48c9abe960527f3666bccd017
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GIST_ID: ${{ secrets.GIST_ID }}
           TIMEZONE: Asia/Seoul
